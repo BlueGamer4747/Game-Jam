@@ -1,17 +1,28 @@
-# Godot 4+ specific ignores
-.godot/
-.nomedia
+```gitignore
+# Backups do Blender
+*.blend1
+*.blend2
+*.blend3
+quit.blend*
 
-# Godot-specific ignores
-.import/
-export.cfg
-export_credentials.cfg
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Configurações da IDE
+.vscode/
+.vs/
+.idea/
+
+# Arquivos do sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs e temporários
+*.log
 *.tmp
+*.temp
+*.bak
+```
 
-# Imported translations (automatically generated from CSV files)
-*.translation
-
-# Mono-specific ignores
-.mono/
-data_*/
-mono_crash.*.json
