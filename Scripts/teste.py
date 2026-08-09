@@ -1,4 +1,4 @@
-import bge
+from bge import logic
 from math import radians
 
 def update_movement(owner, speed=0.1, rot_speed=1.0):
